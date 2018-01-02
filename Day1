@@ -22,3 +22,25 @@ int main() {
 }
 
 -----------------------------------------------------------------------------------
+
+#include <iostream>
+
+using namespace std;
+
+struct person
+{
+    char name[50];
+    int age;
+    
+};
+int main()
+{
+    person a;
+    cout<<"enter details"<<endl;
+    cin.get(a.name, 50);
+    cin>>a.age;
+    cout<<"employee name:"<< a.name ;
+    cout<<"  age:"<<a.age;
+    
+}
+--------------------------------------------------------------------------------------------------------
